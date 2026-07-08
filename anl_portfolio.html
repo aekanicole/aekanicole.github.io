@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="portfolio.css" />
+
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      id="navbar-example2"
+      class="navbar navbar-expand-lg custom sticky-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#hero"> My Portfolio </a>
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero"> Home </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about"> About </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects"> Projects </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- END NAVBAR -->
+
+    <!-- HERO -->
+    <section id="hero">
+      <img src="hero.png" class="catimg" alt="Hero Image" class="img-fluid" />
+
+      <div class="hero-text">
+        <h1><b>Hello, Stranger!</b></h1>
+        <h3>I am <b>Aeka Nicole N. Linga</b></h3>
+
+        <p>
+          I am a student from FEU Institute of Technology, currently taking
+          BSITWMA.
+        </p>
+
+        <p>This portfolio showcases my skills and my projects.</p>
+      </div>
+    </section>
+
+    <!-- END HERO -->
+
+    <div class="hero-divider">· · ────── ꒰ঌ·✦·໒꒱ ────── · ·</div>
+
+    <main>
+      <!-- ABOUT -->
+      <section id="about">
+        <h2 class="section-title">ABOUT ME</h2>
+        <div class="about-content">
+          <img
+            src="1x1Photo.jpg"
+            id="picture"
+            alt="Profile Picture"
+            class="img-thumbnail"
+          />
+
+          <div class="about-text">
+            <p>
+              I am Aeka Linga, 20 years old, and a second-year student taking
+              BSITWMA in FEU Institute of Technology.
+            </p>
+
+            <p>
+              Aside from coding, I am also passionate about graphic design and
+              journalism.
+            </p>
+
+            <p>
+              My soft skills include time management, attention to detail,
+              flexibility, and the ability to work independently.
+            </p>
+          </div>
+        </div>
+
+        <table class="table">
+          <tr>
+            <th>Experience</th>
+            <th>Education</th>
+            <th>Skills</th>
+          </tr>
+
+          <tr>
+            <td>
+              <p><b>2024 - 2025</b></p>
+              <p>
+                Junior Officer in Media Community, FEUTech Junior Philippine
+                Computer Society
+              </p>
+
+              <p><b>2023 - 2024</b></p>
+              <p>Work Immersion with no tardy marks or late submissions.</p>
+
+              <p><b>2023 - 2024</b></p>
+              <p>Social Media Manager, FEUHS Spartams</p>
+            </td>
+            <td>
+              <p><b>2024 - Present</b></p>
+              <p>FEU Institute of Technology</p>
+              <p>BSITWMA Student</p>
+
+              <p><b>2022 - 2024</b></p>
+              <p>Far Eastern University</p>
+              <p>STEM Student (ICT Specialization)</p>
+            </td>
+
+            <td>
+              <ul>
+                <li>Adobe After Effects</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Kotlin</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- END ABOUT -->
+
+      <div class="project-divider">┈┈・ ✦ ・┈┈</div>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <h2 class="section-title">PROJECTS</h2>
+
+        <div class="container">
+          <div class="row g-4">
+            <!-- CARD 1 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="library.jpg"
+                  class="card-img-top"
+                  alt="Library System"
+                />
+
+                <div class="card-body">
+                  <h5 class="card-title">
+                    FEU Institute of Technology Book Storage System
+                  </h5>
+
+                  <p class="card-text">
+                    A GUI-based book storage system developed in Python that
+                    allows users to efficiently manage a library's book
+                    inventory. The system supports adding, updating, searching,
+                    and removing book records while providing an organized and
+                    user-friendly interface for easier data management.
+                  </p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Year: 2026</li>
+                  <li class="list-group-item">Language: Python</li>
+                </ul>
+
+                <div class="card-body">
+                  <a
+                    href="https://github.com/aekanicole/IT0011-BOOK-STORAGE-SYSTEM"
+                    class="btn custom"
+                    target="_blank"
+                  >
+                    Check Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img src="game.jpg" class="card-img-top" alt="Game Inventory" />
+
+                <div class="card-body">
+                  <h5 class="card-title">Videogame Inventory System</h5>
+
+                  <p class="card-text">
+                    A Java-based inventory management system inspired by
+                    Minecraft's inventory mechanics. The application allows
+                    users to add, remove, and use items while maintaining an
+                    organized inventory, demonstrating object-oriented
+                    programming concepts and inventory management logic..
+                  </p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Year: 2025</li>
+                  <li class="list-group-item">Language: Java</li>
+                </ul>
+
+                <div class="card-body">
+                  <a
+                    href="https://github.com/aekanicole/CCS0023L-FINALS-PROJECT---Video-Game-Inventory-System"
+                    class="btn custom"
+                    target="_blank"
+                  >
+                    Check Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img src="movie.jpg" class="card-img-top" alt="Movie Booking" />
+
+                <div class="card-body">
+                  <h5 class="card-title">Movie Booking System</h5>
+
+                  <p class="card-text">
+                    A C++-based movie booking system that allows users to browse
+                    available movies, select showtimes, reserve seats, and
+                    manage ticket bookings. The project demonstrates fundamental
+                    programming concepts such as functions, conditional
+                    statements, loops, and data management.
+                  </p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Year: 2024</li>
+                  <li class="list-group-item">Language: C++</li>
+                </ul>
+
+                <div class="card-body">
+                  <a
+                    href="https://github.com/aekanicole/CCS0015-FINAL-PROJECT"
+                    class="btn custom"
+                    target="_blank"
+                  >
+                    Check Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END PROJECTS -->
+
+      <div class="contact-divider">┈┈・ ✦ ・┈┈</div>
+
+      <!-- CONTACTS -->
+      <section id="contact">
+        <img src="lastimage.png" class="catimg" alt="thank you image" />
+        <h2 class="section-title">SEE MORE OF MY PROJECTS</h2>
+        <p><b>Email: </b>aekanicolelinga@gmail.com</p>
+        <p><b>Number: </b>09171321234</p>
+        <a href="https://github.com/aekanicole"
+          ><img src="github.png" class="contactimg" alt="github"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/aeka-undefined-1ba847399/?skipRedirect=true"
+          ><img src="linkedin.png" class="contactimg" alt="linkedin"
+        /></a>
+      </section>
+    </main>
+    <!-- END CONTACTS -->
+
+    <!-- FOOTER -->
+    <footer class="bg-light text-center border-top mt-5 p-3">
+      <div class="container">
+        <p class="mb-1">
+          Submitted by: Aeka Nicole N. Linga, for academic purposes only.
+        </p>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

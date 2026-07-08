@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(211, 242, 255);
+    margin: 0;
+    font-family: Century Gothic;
+}
+
+#hero {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, rgb(155, 223, 255), white);
+
+}
+
+.hero-text {
+    max-width: 500px;
+    padding: 60px 0px;
+}
+
+.catimg {
+    width: 300px;
+    height: auto;
+}
+
+#picture {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+
+
+main {
+    display: block;
+    margin: auto;
+}
+
+
+#projects {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+
+
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: "★ ";
+}
+
+.custom {
+    background-color:rgb(155, 223, 255);
+}
+
+.hero-divider {
+    color: rgb(1, 93, 133);
+    padding: 10px;
+    text-align: center;
+    font-size:x-large;
+    background: linear-gradient(to top, rgb(211, 242, 255), white)
+}
+
+.project-divider {
+    color: rgb(1, 93, 133);
+    padding: 10px;
+    text-align: center;
+    font-size:x-large;
+    background: linear-gradient(to top,  white, rgb(211, 242, 255))
+}
+
+.contact-divider {
+    color: rgb(1, 93, 133);
+    padding: 10px;
+    text-align: center;
+    font-size:x-large;
+    background: linear-gradient(to top, rgb(211, 242, 255), white)
+}
+
+#about {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#about table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 0px;
+    background-color:#8ecae6;
+}
+
+#about th,
+#about td {
+    padding: 20px;
+    vertical-align: top;
+    text-align: center;
+    
+}
+
+#about th {
+    border-bottom: 2px solid #8ecae6;
+}
+
+#about td {
+    border-right: 1px solid #8ecae6;
+}
+
+#about td:last-child {
+    border-right: none;
+}
+
+.section-title {
+    font-weight:bold;
+    letter-spacing: 2px;
+    color:rgb(1, 93, 133);
+    text-align: center;
+}
+
+.about-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:20px;
+    
+}
+
+.about-text{
+    text-align:left;
+    margin: 20px;
+}
+
+#contact {
+    text-align: center;
+    line-height: 5px;
+}
+
+.contactimg {
+    width: 30px;
+    transition: 0.4s ease;
+}
+
+.contactimg:hover {
+    transform: scale(1.25);
+}
+
+@media (max-width: 768px){
+
+    #hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .catimg{
+        width:220px;
+    }
+
+    .hero-text{
+        padding:0;
+    }
+
+
+}
